@@ -1,0 +1,22 @@
+[
+    {
+        "path": "/push",
+        "name": "push",
+        "shell": "sh",
+        "execute-command": "push.sh",
+        "execute-command-directry": "/path/to/shellscript",
+        "X-GitHub-Event": "push",
+        "method": "POST",
+        "secret": "secret_1"
+    },
+    {
+        "path": "/pull_request",
+        "name": "pullrequest",
+        "shell": "sh",
+        "execute-command": "pullrequest.sh",
+        "execute-command-directry": "/path/to/shellscript",
+        "X-GitHub-Event": "pull_request",
+        "method": "POST",
+        "secret": "secret_2"
+    }
+]
